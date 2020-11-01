@@ -1,0 +1,23 @@
+.navbar {
+  background-color: rgb(197, 197, 197);
+  border: 1px solid rgba(0, 0, 0, 0.13);
+ &__container {
+ }
+ 
+ &__body {
+   padding: 24px 0;
+ }
+
+ &__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  li {
+    a {
+      font-size: 24px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+    }
+  }
+ }
+}
